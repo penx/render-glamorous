@@ -1,7 +1,7 @@
 {
   "name": "render-glamorous",
-  "version": "1.0.0",
-  "description": "Describe render-glamorous here",
+  "version": "0.0.1",
+  "description": "Render a Glamorous React component as static html, useful for visual regression tests.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -16,13 +16,29 @@
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "react-dom": "*",
+    "glamor": "*"
   },
   "devDependencies": {
     "nwb": "0.21.x"
   },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": ""
+  "author": "Alasdair McLeay",
+  "homepage": "https://github.com/penx/render-glamorous#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/render-glamorous.git"
+  },
+  "keywords": [
+    "glamor",
+    "glamorous",
+    "react",
+    "visual",
+    "regression"
+  ],
+  "bugs": {
+    "url": "https://github.com/penx/render-glamorous/issues"
+  },
+  "license": "ISC"
 }
