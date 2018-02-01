@@ -13,4 +13,4 @@ const renderGlamor = component => {
   `;
 };
 
-export renderGlamor;
+export default renderGlamor;
