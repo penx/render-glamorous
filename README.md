@@ -8,6 +8,22 @@ Render a Glamorous React component as static html, useful for visual regression 
 
 Originally built for use with [component-image](https://github.com/corygibbons/component-image).
 
+## Usage
+
+`npm install render-glamorous component-image --save-dev`
+
+```js
+import { generateImage } from 'component-image';
+import renderGlamorous from 'render-glamorous';
+import MyComponent from './components/my-component';
+
+generateImage(MyComponent, {
+  renderer: renderGlamorous,
+}).then(image => {
+  // do something
+});
+```
+
 [build-badge]: https://img.shields.io/travis/penx/render-glamorous/master.png?style=flat-square
 [build]: https://travis-ci.org/penx/render-glamorous
 
