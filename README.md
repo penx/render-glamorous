@@ -10,7 +10,18 @@ Originally built for use with [component-image](https://github.com/corygibbons/c
 
 ## Usage
 
-`npm install render-glamorous component-image --save-dev`
+`npm i -D render-glamorous`
+
+```js
+import renderGlamorous from 'render-glamorous';
+import MyComponent from './components/my-component';
+
+const htmlString = renderGlamorous(MyComponent); // returns static html markup with inline CSS
+```
+
+### With component-image
+
+`npm i -D render-glamorous component-image`
 
 ```js
 import { generateImage } from 'component-image';
