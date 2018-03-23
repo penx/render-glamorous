@@ -29,7 +29,7 @@ import renderGlamorous from 'render-glamorous';
 import MyComponent from './components/my-component';
 
 generateImage(MyComponent, {
-  renderer: renderGlamorous,
+  renderer: renderGlamorous
 }).then(image => {
   // do something
 });
